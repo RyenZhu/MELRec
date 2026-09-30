@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Local datasets and generated files
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+outputs/
+logs/
+*.log
+
+# Model and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.pkl
+*.pickle
+
+# Local configuration and notebook artifacts
+.env
+.idea/
+.vscode/
+*.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
